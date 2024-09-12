@@ -1,0 +1,51 @@
+
+
+:root{
+    --cor-principal: #ffffff65 ;
+    --cor-secundaria: #ffffff; 
+    --cor-destaque: #000000;
+    --cor-texto: #000000;
+
+}
+
+body {
+    background-image: url(./caminhos.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family : 'Harry Potter' , sans-serif ;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    font-size: 25px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-family : 'Harry Potter' , sans-serif ;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
